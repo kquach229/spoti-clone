@@ -60,7 +60,7 @@ function App() {
       });
     }
     console.log("I have a token: ", token);
-  }, [token]);
+  }, [token, dispatch]);
 
   console.log("USER: ", user);
   console.log("TOKEN: ", token);
